@@ -47,9 +47,11 @@
         <h2 class="sobre-titulo">Sobre Mim</h2>
 
         <div class="sobre-caixa">
-            <p class="sobre-paragrafo">Olá, eu sou um desenvolvedor Front-End apaixonado por
-                criar experiências digitais incríveis e estou sempre em
-                busca de aprender novas tecnologias e aprimorar minhas habilidades.</p>
+            <p class="sobre-paragrafo">Olá! Sou Filipe Carrera, um desenvolvedor Front-End apaixonado por criar
+                interfaces intuitivas e responsivas. Minha busca constante por aprendizado me impulsiona a explorar
+                novas tecnologias e a aprimorar minhas habilidades, sempre com foco em entregar soluções eficientes e de
+                alta qualidade. Adoro transformar ideias em experiências digitais impactantes e sou dedicado a resolver
+                desafios técnicos de forma criativa.</p>
         </div>
 
         <div class="tecnologias">
@@ -74,7 +76,7 @@
             <div class="projetos-card">
                 <img src="img/Login.jpg" alt="projeto 1" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Projeto Login</h3>
+                    <h3 class="info-projetos"><a href="https://projeto-tela-de-login-kappa.vercel.app/" target="_blank">Login</a></h3>
                     <p class="paragrafo-projetos">Projeto para Tela de Login.</p>
                 </div>
             </div>
@@ -82,7 +84,7 @@
             <div class="projetos-card">
                 <img src="img/Perfil Desenho.jpg" alt="projeto 1" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Projeto Card Simples</h3>
+                    <h3 class="info-projetos"><a href="https://projeto-carde-simples.vercel.app/" target="_blank">Projeto Card Simples</a></h3>
                     <p class="paragrafo-projetos">Projeto Card Pessoal.</p>
                 </div>
             </div>
@@ -90,31 +92,31 @@
             <div class="projetos-card">
                 <img src="img/Cafeteria.jpg" alt="projeto 1" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Projeto Cafeteria</h3>
+                    <h3 class="info-projetos"><a href="https://projeto-cafeteria-five-nu.vercel.app/" target="_blank">Cafeteria</a></h3>
                     <p class="paragrafo-projetos">Projeto Lojas de Café.</p>
                 </div>
             </div>
 
-            <div class="projetos-card">
+            <!-- <div class="projetos-card">
                 <img src="img/Ecommerce.jpg" alt="projeto 1" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
                     <h3 class="info-projetos">Projeto E-commerce</h3>
                     <p class="paragrafo-projetos">Projeto para Lojas de Online.</p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="projetos-card">
+            <!-- <div class="projetos-card">
                 <img src="img/ToDeList.jpg" alt="projeto 1" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
                     <h3 class="info-projetos">Projeto To De List</h3>
                     <p class="paragrafo-projetos">Projeto para Organização Diária.</p>
                 </div>
-            </div>
+            </div> -->
 
             <div class="projetos-card">
                 <img src="img/Calculadora.jpg" alt="projeto 1" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Projeto Calculadora IMC </h3>
+                    <h3 class="info-projetos"><a href="https://projeto-calculadora-imc-phi.vercel.app/" target="_blank">Projeto Calculadora IMC</a></h3>
                     <p class="paragrafo-projetos">Projeto Calculadora.</p>
                 </div>
             </div>
@@ -122,18 +124,26 @@
             <div class="projetos-card">
                 <img src="img/projeto slide animado.jpg" alt="projeto 1" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Projeto Slide Animado </h3>
+                    <h3 class="info-projetos"><a href="https://projeto-slide-animado.vercel.app/" target="_blank">Projeto Slide Animado</a></h3>
                     <p class="paragrafo-projetos">Projeto para Revendedores.</p>
                 </div>
             </div>
 
-             <div class="projetos-card">
+            <div class="projetos-card">
                 <img src="img/rolamentos.jpg" alt="projeto 1" class="projetos-imagem">
                 <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Projeto Loja de Rolamentos </h3>
+                    <h3 class="info-projetos" ><a href="https://projeto-loja-de-rolamento.vercel.app/" target="_blank">Loja de Rolamentos</a></h3>
                     <p class="paragrafo-projetos">Projeto para vender Peças.</p>
                 </div>
             </div>
+
+            <!-- <div class="projetos-card">
+                <img width="100%" height=48% src="img/ReactFinanças.png" alt="projeto 1" class="projetos-Finanças">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Projeto Finanças </h3>
+                    <p class="paragrafo-projetos">Projeto para controle de Finanças.</p>
+                </div>
+            </div> -->
 
         </div>
 
@@ -161,23 +171,7 @@
     </footer>
 
 
-    <script>
-        function enviarWhatsApp(event) {
-            event.preventDefault();
-
-            const nome = document.getElementById('nome').value;
-            const mensagem = document.getElementById('mensagem').value;
-            const telefone = '5571992996457';
-
-            const texto = `Olá, me chamo ${nome}, ${mensagem}`;
-            const msgFormatada = encodeURIComponent(texto);
-            const urlZap = `https://wa.me/${telefone}?text=${msgFormatada}`;
-
-            window.open(urlZap, "_blank");
-
-            console.log(urlZap);
-        }
-    </script>
+    <script src="script.js"></script>
 
 </body>
 
